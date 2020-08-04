@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>GUVI Resumw with tags</title>
+    <style>
+      .topbox {
+        color: gray;
+        font-size: 200px;
+        /* width: 800px;
+        height: 800px; */
+        margin-left: 300px;
+        margin-right: 300px;
+        background-color: gray;
+      }
+      .photo{
+        position: relative;
+        top: -20px;
+        left: 320px;
+        text-align: center;
+        border-radius: 50%;
+        font-size: 250px;
+        width: 30%;
+        background-color: chocolate;
+        border-color: chartreuse;
+        border-style: dotted;
+        /* border-style: double; */
+        /* border-spacing: -200px; */
+        
+        color: blanchedalmond;
+      }
+      .heading {
+        position: relative;
+        top: -148px;
+        left: 295px;
+        margin-left: 300px;
+        margin-right: 300px;
+        background-color: rgb(220, 190, 23);
+        display: inline-block;
+        border-radius: 5px;
+        font-size: 20px;
+      }
+      h1 {
+        padding-left: 30px;
+        padding-right: 30px;
+      }
+      .twoblocks {
+        position: relative;
+        font-size: 35px;
+        width: 100%;
+        margin-right: 30px;
+        border: hidden;
+        background-color: lightgray;
+      }
+      .resumecontent {
+        top: -100px;
+        position: relative;
+        margin-left: 300px;
+        margin-right: 300px;
+        /* width: 920px; */
+        /* margin-right: 300px; */
+        height: 1500px;
+        /* background-color: lightsalmon; */
+        align-items: center;
+      }
+      .resumeside1 {
+        position: absolute;
+        /* margin-right: 100px; */
+        /* float: left; */
+        border-right: ridge;
+
+        width: 450px;
+        /* background-color: lawngreen; */
+      }
+      .resumeside2 {
+        position: absolute;
+        right: 0;
+        /* float: left; */
+        width: 450px;
+        /* background-color: rgb(252, 0, 76); */
+      }
+      h2 {
+        font-size: 40px;
+        margin-left: 50px;
+      }
+      table {
+        margin-top: 0px;
+        margin-left: 60px;
+      }
+      p {
+        margin-top: 0px;
+        margin-left: 50px;
+      }
+      ul {
+        margin-left: 35px;
+      }
+      
+    </style>
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <script src="script.js"></script>
+    <div class="topbox">
+      &nbsp;
+      <div class="photo"> <img src="profile.png" width="30%" /></div>
+      <!-- <p style="font-size: 20px;">jsj</p> -->
+      <div class="twoblocks" style="color: lightgray;">
+        &nbsp;
+      </div>
+      <div class="twoblocks" style="background-color: gray;">
+        &nbsp;
+      </div>
+      <div
+        class="twoblocks"
+        style="
+          font-size: 30px;
+          text-align: center;
+          background-color: white;
+          border-bottom-style: ridge;
+        "
+      >
+        No.36, Jeelani Sahib Street, Alandur, Channai-16|91 7299367483
+      </div>
+    </div>
+    <div class="heading">
+      <h1>
+        S.Irfan Hussain
+      </h1>
+    </div>
+    <div class="resumecontent">
+      <div class="resumeside1">
+        <div class="portions">
+          <h2><img src="profile.png" width="30px" /> Profile</h2>
+          <p>
+            Aspiring Web developer with adequate programming skills. Very much
+            excited to be employed in my first technical role to enhance my
+            skills on full stack and hopefully work on individual projects.
+          </p>
+        </div>
+        <div class="portions">
+          <h2><img src="skills.png" width="30px" /> Skills</h2>
+          <p>
+            <b
+              >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Technical
+              Skills </b
+            ><br />
+          </p>
+          <table>
+            <tr>
+              <td>Javascript</td>
+              <td>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<progress
+                  max="100"
+                  value="80"
+                ></progress>
+              </td>
+            </tr>
+            <tr>
+              <td>HTML</td>
+              <td>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<progress
+                  max="100"
+                  value="70"
+                ></progress>
+              </td>
+            </tr>
+            <tr>
+              <td>CSS</td>
+              <td>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<progress
+                  max="100"
+                  value="60"
+                ></progress>
+              </td>
+            </tr>
+            <tr>
+              <td>Python</td>
+              <td>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<progress
+                  max="100"
+                  value="80"
+                ></progress>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <!-- <div class="portions">
+          <h2><img src="work.png" width="30px"/> Educational Experience</h2>
+          <p>
+            <b
+              >Machine Learning Data
+              Associate&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;03/2017-till
+              date</b
+            ><br />Alexa Data Services.
+          </p>
+          <ul>
+            <li>Have undergone in-plant training at Tamil Nadu Electricity Board, control center to understand the Load Management, Cable fault locating, Testing and SCADA operating Principles.</li>
+            <li>
+              Have visited Koyambedu 110KV substation, Chennai, to understand the Power Distribution Process.
+            </li>
+            <li>
+              Industrial visit to All India Radio, Chennai to understand processes of Radio Communication.
+            </li>
+            <li>
+              Have visited Kundah Power Plant, Ooty to understand the operations of Hydro-Electric power plant.
+            </li>
+            
+          </ul>
+        </div> -->
+        <div class="portions">
+          <h2><img src="work.png" width="30px" /> Work experience</h2>
+          <p>
+            <b
+              >Machine Learning Data
+              Associate&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;03/2017-till
+              date</b
+            ><br />Alexa Data Services.
+          </p>
+          <ul>
+            <li>Been part of pilot programs and critical workflows.</li>
+            <li>
+              Lead a team of 12 for a special process and had been in the
+              forefront in successful establishment of the pilot project.
+            </li>
+            <li>
+              Have been part of conference calls involving internal customers of
+              various levels across globe for pilot processes.
+            </li>
+            <li>
+              Have successfully implemented several innovative ideas which can
+              speed up and increase the efficiency of the process.
+            </li>
+            <!-- <li>
+              Have been part of the ATLAS program in 2018 and have attended
+              training on basic Testing and Support.
+            </li> -->
+          </ul>
+        </div>
+      </div>
+      <div class="resumeside2">
+        <div class="portions">
+          <h2><img src="work.png" width="30px" /> Educational Experience</h2>
+          <p>
+            <b
+              >Machine Learning Data
+              Associate&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;03/2017-till
+              date</b
+            ><br />Alexa Data Services.
+          </p>
+          <ul>
+            <li>
+              Have undergone in-plant training at Tamil Nadu Electricity Board,
+              control center to understand the Load Management, Cable fault
+              locating, Testing and SCADA operating Principles.
+            </li>
+            <li>
+              Have visited Koyambedu 110KV substation, Chennai, to understand
+              the Power Distribution Process.
+            </li>
+            <li>
+              Industrial visit to All India Radio, Chennai to understand
+              processes of Radio Communication.
+            </li>
+            <li>
+              Have visited Kundah Power Plant, Ooty to understand the operations
+              of Hydro-Electric power plant.
+            </li>
+          </ul>
+        </div>
+        <!-- <div class="portions">
+          <h2><img src="work.png" width="30px"/> Work experience</h2>
+          <p>
+            <b
+              >Machine Learning Data
+              Associate&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;03/2017-till
+              date</b
+            ><br />Alexa Data Services.
+          </p>
+          <ul>
+            <li>Been part of pilot programs and critical workflows.</li>
+            <li>
+              Lead a team of 12 for a special process and had been in the
+              forefront in successful establishment of the pilot project.
+            </li>
+            <li>
+              Have been part of conference calls involving internal customers of
+              various levels across globe for pilot processes.
+            </li>
+            <li>
+              Have successfully implemented several innovative ideas which can
+              speed up and increase the efficiency of the process.
+            </li>
+            <li>
+              Have been part of the ATLAS program in 2018 and have attended
+              training on basic Testing and Support.
+            </li>
+          </ul>
+        </div> -->
+        <div class="portions">
+          <h2><img src="edu.webp" width="30px" /> Education</h2>
+          <p>
+            <b
+              >Bachelors in
+              Engineering&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;07/2012-05/2016 </b
+            ><br />MSAJCE,Chennai <br />
+            Full Stack Training at GUVI.
+          </p>
+          <ul>
+            <li>Have successfully completed 1 hackathons</li>
+            <li>
+              Have worked on projects based on html,CSS, Javascript.
+            </li>
+            <li>
+              Currently working on projects based on Web Development.
+            </li>
+            <li>
+              Undergoing training for other frameworks.
+            </li>
+            <li>
+              Have been part of the ATLAS program in 2018 and have attended
+              training on basic Testing and Support.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
